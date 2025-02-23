@@ -111,6 +111,28 @@ header h1{
 
 /* Second of Main Section Styling */
 
+.main-second-section {
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+.main-second-section h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+main-second-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 40rem;
+}
+
+
+
+
+
 
 
 
