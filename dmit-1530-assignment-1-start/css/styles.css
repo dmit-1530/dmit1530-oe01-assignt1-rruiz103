@@ -3,15 +3,117 @@
     --blue-grey-100: #CFD8DC;
     --blue-grey-200: #B0BEC5;
     --blue-grey-900: #263238;
+    --dark-grey: #111111;
+    --white: #FFFFFF;
+    --blockquote-color:#78909C;
 }
 
 body {
     color: #000;
     text-align: center; 
+    width: 24.38rem;
+    margin: 0 auto;
 }
 
-header, footer {
+
+/* Header Section Styling */
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items:baseline;
+    gap: 1rem; 
+}
+
+.header-container h1{
+    font-size: 3.5rem;
+}
+
+.header-container img{
+    width: 5.6875rem;
+    height: 3.625rem;
+}
+
+.header-nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Space between menu items */
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.header-nav-bar a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+header h1{
+    font-family: "Libre Baskerville", serif;
+}
+
+
+/* Main Section Styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    background-color: var(--dark-grey);
+    color: white;
+}
+
+.main-first-section{
     background-color: var(--blue-grey-50);
-    color: #fff;
-    padding: 2rem 4rem;   
+}
+
+.blockquote-div{
+    background-color: var(--blockquote-color);
+}
+
+.main-third-section{
+    background-color: var(--blue-grey-100);
+}
+
+.sign-up-div{
+    background-color: var(--blue-grey-900);
+}
+
+.sign-up-div-inside-box{
+    /* background-color: var(--white); */
+}
+
+
+
+/* Footer Section Styling */
+
+
+footer {
+    background-color: var(--dark-grey);
+
 }
