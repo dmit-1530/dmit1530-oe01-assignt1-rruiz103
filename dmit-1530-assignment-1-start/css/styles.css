@@ -158,6 +158,59 @@ header h1{
 }
 
 
+/* Third of Main Section Styling */
+
+.main-third-section{
+    background-color: var(--blue-grey-100);
+    padding: 1.5rem 1.5rem; 
+    text-align: center;
+}
+
+.third-section-divider {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    margin-bottom: 0.2rem; 
+    text-align: left;
+    line-height: 1; 
+}
+
+.third-section-divider-firstp{
+    font-size: 2.5rem; 
+    font-weight: bold;
+    margin-bottom: 0.2rem; 
+    text-align: center; 
+}
+
+.main-third-section h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: lighter;
+    margin-bottom: 1.5rem;
+    text-align: center; 
+}
+
+.main-third-section div {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 80ch;
+    text-align: left;
+}
+
+.main-third-section ul li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.main-third-section img {
+    width: 100%;
+    max-width: 350px; 
+    border-radius: 12px; 
+    display: block;
+    margin: 0 auto;
+}
+
+ul li span {
+    font-weight: bold;
+}
 
 
 
@@ -168,7 +221,11 @@ header h1{
 
 
 
-button{
+
+
+
+
+.button{
     background-color: var(--dark-grey);
     color: white;
 }
@@ -179,9 +236,7 @@ button{
     background-color: var(--blockquote-color);
 }
 
-.main-third-section{
-    background-color: var(--blue-grey-100);
-}
+
 
 .sign-up-div{
     background-color: var(--blue-grey-900);
