@@ -254,43 +254,72 @@ ul li span {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-.button{
-    background-color: var(--dark-grey);
-    color: white;
-}
-
-
-
-.blockquote-div{
-    background-color: var(--blockquote-color);
-}
-
-
-
-.sign-up-div{
-    background-color: var(--blue-grey-900);
-}
-
-.sign-up-div-inside-box{
-    /* background-color: var(--white); */
-}
-
-
-
 /* Footer Section Styling */
 
+.footer-container {
+    background-color: #111; 
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
 
-footer {
-    background-color: var(--dark-grey);
+.footer-logo-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
 
+.footer-logo-container h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: "Libre Baskerville", serif;
+}
+
+.footer-logo-container img {
+    width: 5.6875rem;
+    height: 3.625rem;
+}
+
+.footer-nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-nav-container section {
+    text-align: left;
+}
+
+.footer-nav-container h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-nav-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav-container li {
+    margin-bottom: 0.3rem;
+}
+
+.footer-nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer-container p {
+    font-size: 0.8rem;
+    color: #aaa;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-container p:nth-of-type(1) {
+    text-align: left;
 }
