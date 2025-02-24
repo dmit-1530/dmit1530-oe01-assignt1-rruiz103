@@ -383,18 +383,39 @@ ul li span {
         margin: 0 auto;
     }
 
-    /* Update to Main-Second Section Styling */
+    /* Update to Main-Third Section Styling */
 
-    /* .main-third-section-div img{
+    .first-third-section-div-container{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 2rem;
+        align-items: center;
+        gap: 1.2rem;
     }
 
-    .main-third-section-div div{
-      
-    } */
+    .first-third-section-div-container div:nth-child(1) {
+        width: 48%;
+    }
+
+    .first-third-section-div-container div:nth-child(2) {
+        width: 48%;
+    }
+
+    .second-third-section-div-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .second-third-section-div-container div:nth-child(1) {
+        width: 48%;
+        order: 2; 
+    }
+
+    .second-third-section-div-container div:nth-child(2) {
+        width: 48%;
+        order: 1; 
+    }
 
 
     /* Update to Sign up Div Section Styling */
@@ -427,5 +448,18 @@ ul li span {
         margin: 0 auto;
     }
 
+
+}
+
+
+/* CSS Styling for screen with minimum width of 1440px */
+
+@media screen and (min-width: 1440px){
+
+    /* Update to Header and Main-First Section Styling */
+
+    body{
+        width: 90rem;
+    }
 
 }
