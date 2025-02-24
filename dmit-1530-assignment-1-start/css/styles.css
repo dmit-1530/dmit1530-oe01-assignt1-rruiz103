@@ -224,10 +224,10 @@ ul li span {
 .sign-up-div-inside-box {
     background-color: #fff; 
     border-radius: 1rem; 
-    padding: 2rem;
+    padding: 5rem 2rem;
     text-align: center;
-    max-width: 18.75rem; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    height: 24.25rem;
 }
 
 .sign-up-div-inside-box p:first-of-type {
@@ -344,7 +344,7 @@ ul li span {
    }
 
    .header-nav-bar {
-        margin-left: auto; /* Pushes navigation to the right */
+        margin-left: auto; 
         padding-right: 2rem;
     }
 
@@ -383,8 +383,36 @@ ul li span {
         margin: 0 auto;
     }
 
+    /* Update to Main-Second Section Styling */
+
+    /* .main-third-section-div img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .main-third-section-div div{
+      
+    } */
 
 
+    /* Update to Sign up Div Section Styling */
+    
+    .sign-up-div-inside-box {
+        height: 19.38rem;
+        width: 28.88rem;
+        padding: 4rem 2rem;
+    }
+    
+    /* Update to Footer Section Styling */
+
+    .footer-container{
+        display: flex;
+        gap: 10rem;
+    }
+
+    
 
 
 }
