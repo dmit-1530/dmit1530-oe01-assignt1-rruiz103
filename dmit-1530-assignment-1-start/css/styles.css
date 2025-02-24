@@ -327,6 +327,8 @@ ul li span {
 
 @media screen and (min-width: 768px) {
 
+    /* Update to Header and Main-First Section Styling */
+
     body{
         width: 48rem;
     }
@@ -345,5 +347,44 @@ ul li span {
         margin-left: auto; /* Pushes navigation to the right */
         padding-right: 2rem;
     }
+
+    /* Update to Main-Second Section Styling */
+
+    .main-second-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    
+    .main-second-section div {
+        width: calc(50% - 1rem);                        
+        min-width: 18rem; 
+        text-align: left; 
+    }
+
+    .section-divider {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    .main-second-section .section-divider,
+    .main-second-section h3 {
+        text-align: left;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section-divider:not(div .section-divider) {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+
 
 }
