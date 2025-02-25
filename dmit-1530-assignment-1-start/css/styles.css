@@ -725,6 +725,47 @@ ul li span {
 
     /* First of Main Section Styling */
 
+    .window-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .landscape-div{
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .landscape-div{
+        display: flex;
+        width: 100%;
+    }
+
+    .window-div-image{
+        width: 50%;
+    }
+
+    .window-div-image img{
+        height:100%;
+    }
+
+    .window-div-text{
+        width: 50%;
+    }
+
+    .landscape-div-image{
+        width: 50%;
+        order: 2;
+    }
+
+    .landscape-div-text{
+        width: 50%;
+       
+    }
+
 
     /* Third of Main Section Styling */
 
