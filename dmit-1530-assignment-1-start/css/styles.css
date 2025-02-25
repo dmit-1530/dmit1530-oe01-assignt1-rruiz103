@@ -251,6 +251,10 @@ ul li span {
     font-size: 1rem;
 }
 
+.join-p{
+    font-family: "Libre Baskerville", serif;
+}
+
 
 /* Footer Section Styling */
 
@@ -505,6 +509,50 @@ ul li span {
         font-size: 2.0rem; 
         padding: 0 10rem;
     }
-  
+
+    /* Update to Main-Third Section Styling */
+
+    /* .main-third-section{
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 15rem;
+        padding-right: 15rem;
+    } */
+
+    /* .main-third-section div{
+        width: 50%;
+    }
+
+    .first-third-section-div-container{
+        flex-direction: column;
+    }
+
+    .second-third-section-div-container{
+        flex-direction: column;
+    } */
+
+
+    /* Update to Sign up Div Section Styling */
+    
+    .sign-up-div-inside-box {
+        width: 46.80rem;
+    }
+    
+
+    /* Update to Footer Section Styling */
+
+    .footer-logo-container{
+        padding-left: 5rem;
+    }
+
+    .footer-first-section p{
+        padding-left: 3.0rem;
+     
+    }
+
+    .footer-nav-container{
+        gap: 10rem;
+        padding-right: 10rem;
+    }
 
 }
