@@ -680,3 +680,40 @@ figure {
 .art-main-third-section h2{
     font-family: "Libre Baskerville", serif;
 }
+
+
+/* Fourth of Main Section Styling */
+
+.art-main-fourth-section{
+    background-color: #2C3E46;
+    color: var(--white);
+    font-weight: lighter;
+    text-align: left;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.art-main-fourth-section h2{
+    font-family: "Libre Baskerville", serif;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+ul li span {
+    font-weight:750;
+}
+
+.art-main-fourth-section ul li{
+    padding-bottom: 1.25rem;
+}
+
+.art-main-fourth-firstdiv img{
+    width: 20.38rem;
+    height: 52rem;
+}
+
+.art-main-fourth-seconddiv figure img{
+    width: 20.38rem;
+    height: 11.81rem;
+    padding-bottom: 0.5rem;
+}
