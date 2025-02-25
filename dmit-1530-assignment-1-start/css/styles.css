@@ -512,24 +512,71 @@ ul li span {
 
     /* Update to Main-Third Section Styling */
 
-    /* .main-third-section{
-        flex-direction: row;
-        justify-content: space-around;
-        padding-left: 15rem;
-        padding-right: 15rem;
-    } */
-
-    /* .main-third-section div{
-        width: 50%;
+    .main-third-section {
+        padding: 5rem 10rem; 
+        max-width: 90rem;
+        margin: 0 auto;
     }
 
-    .first-third-section-div-container{
-        flex-direction: column;
+    .main-third-section-div-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 4rem; 
+        width: 100%;
     }
 
-    .second-third-section-div-container{
+    .first-third-section-div-container,
+    .second-third-section-div-container {
+        display: flex;
         flex-direction: column;
-    } */
+        width: 48%; 
+    }
+
+    .first-third-section-div-container div:nth-child(1),
+    .second-third-section-div-container div:nth-child(1) {
+        width: 100%;
+    }
+
+    .first-third-section-div-container div:nth-child(2),
+    .second-third-section-div-container div:nth-child(2) {
+        width: 100%;
+    }
+
+    .first-third-section-div-container img,
+    .second-third-section-div-container img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 12px;
+    }
+
+    .first-third-section-div-container h3,
+    .second-third-section-div-container h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .first-third-section-div-container ul,
+    .second-third-section-div-container ul {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .third-section-divider {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .second-third-section-div-container div:nth-child(1) {
+        width: 48%;
+        order: 1; 
+    }
+
+    .second-third-section-div-container div:nth-child(2) {
+        width: 48%;
+        order: 2; 
+    }
 
 
     /* Update to Sign up Div Section Styling */
