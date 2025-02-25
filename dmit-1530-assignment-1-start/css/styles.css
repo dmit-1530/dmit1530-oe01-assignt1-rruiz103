@@ -383,6 +383,12 @@ ul li span {
         margin: 0 auto;
     }
 
+    /* Update to Blockquote Styling */
+
+    .blockquote-div blockquote {
+        font-size: 2.2rem; 
+    }
+
     /* Update to Main-Third Section Styling */
 
     .first-third-section-div-container{
@@ -470,7 +476,35 @@ ul li span {
         margin-right: 10rem;
     }
 
-    
+    /* Update to Main-Second Section Styling */
+
+    .main-second-section{
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .main-second-sec-first-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-second-section section p{
+        width: 71.18%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main-second-section div{
+        width: 22.64rem;
+    }
+
+     /* Update to Blockquote Styling */
+
+     .blockquote-div blockquote {
+        font-size: 2.0rem; 
+        padding: 0 10rem;
+    }
   
 
 }
