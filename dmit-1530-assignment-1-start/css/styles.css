@@ -578,6 +578,78 @@ ul li span {
         order: 2; 
     }
 
+    .commercial-architecture-container p{
+        width: 130rem;
+    }
+
+    .commercial-architecture-container h3{
+        width: 130rem;
+    }
+
+    .commercial-architecture-container ul li{
+        width: 22rem;
+    }
+
+    .commercial-architecture-container{
+        margin-top:4rem;
+    }
+  
+
+    .main-third-section-div-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 62rem;
+        height: 48rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+    }
+
+    .main-third-section{
+        padding-top: 1rem;
+    }
+
+    .second-third-section-div-container img{
+        height: 22rem;
+        max-width: 100rem;
+        width: 30rem;
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    .second-third-section-div-container{
+        max-width: 100%;
+        width: 100%;
+        padding-right: 28rem;
+    }
+
+    .first-third-section-div-container{
+        max-width: 100%;
+        width: 100%;
+        padding-left: 20rem;
+        padding-top: 4rem;
+    }
+
+    .first-third-section-div-container{
+        max-width: 50%;
+    }
+
+    .first-third-section-div-container img{
+        height: 20.5rem;
+        max-width: 100rem;
+        width: 30rem;
+        
+    }
+
+    .third-section-divider{
+        text-align: left;
+    }
+
+  
+
+   
+
 
     /* Update to Sign up Div Section Styling */
     
