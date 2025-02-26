@@ -876,7 +876,31 @@ ul li span {
         padding-right: 11rem;
     }
 
+    /* Fourth of Main Section Styling */
 
+    .art-main-fourth-section{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
 
+    .art-main-fourth-firstdiv img{
+        height: 45rem;
+    }
+
+    /* Footer Section Styling */
+
+    .footer-container{
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .footer-first-section p{
+        padding-left: 5rem;
+    }
+
+    .footer-nav-container {
+        padding-left: 10rem;
+        padding-right: 15rem;
+    }
 
 }
