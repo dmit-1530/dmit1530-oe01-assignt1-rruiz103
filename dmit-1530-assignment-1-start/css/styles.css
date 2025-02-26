@@ -829,3 +829,54 @@ ul li span {
     }
 
 }
+
+
+@media screen and (min-width: 1440px){
+
+    /* First of Main Section Styling */
+
+    body{
+        width: 90rem;
+    }
+
+    .art-main-first-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15rem;
+    }
+
+   .landscape-div-image figure img{
+        height: 20%;
+   }
+
+   .window-div-image img{
+        height: 20rem;
+   }
+
+   .landscape-div-text{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+   }
+
+   .window-div-text{
+        padding-bottom: 2rem;
+   }
+
+   /* Second of Main Section Styling */
+
+   .art-main-second-section{
+        width:78%;
+    }
+
+    /* Third of Main Section Styling */
+
+    .third-section-content-container{
+        padding-left: 11rem;
+        padding-right: 11rem;
+    }
+
+
+
+
+}
